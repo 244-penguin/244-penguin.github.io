@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Player input</title>
+
+
+	<!-- Compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" >
+
+    	<!-- Compiled and minified JavaScript -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+	<style>
+	body {
+		margin : 0 auto;
+		/*width : 70%;*/
+	}
+	/*nav {
+		height: 500px;
+	}*/
+	.brand-logo {
+		text-align:center;
+	}
+	h5 {
+		font-weight:bold;
+	}
+	</style>
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper blue darken-3">
+				<a href="#" class="brand-logo" >Mizouchi Tsuyoshi</a>
+				      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        				<li><a href="index.html">Japanese</a></li>
+      </ul>
+			</div>
+		</nav>
+	</div>
+		<div>
+			<h5 class="title">Profile</h5>
+
+			<dt>Name</dt>
+				<dd>
+					Mizouchi Tsuyoshi
+				</dd>
+			<dt>Belonging</dt>
+				<dd>
+					<a href="http://www.ist.osaka-u.ac.jp/english/" target="_blank">Graduate School of Information Science and Technology,Osaka University</a>
+					<br>
+					<a href="http://www.ist.osaka-u.ac.jp/english/research/majors/cs/" target="_blank">Department of Computer Science</a>
+					<a href="http://sel.ist.osaka-u.ac.jp/index.html.ja" target="_blank" >Inoue Laboratory</a>
+				</dd>
+			<dt>Grade</dt>
+				<dd>
+					1st Year of A Master's Course
+				</dd>
+			<dt>E-mail:</dt>
+				<dd>
+					m-tys(at)ist.osaka-u.ac.jp
+				</dd>
+			<h5 class="title">Education</h5>
+				2014.04-2018.03 Depertment of Information Technology Faculty of Engineering, Okayama University<br>
+				2018.04~ Information Science and Technology, Graduate School of Information Science and Technology, Osaka University<br>
+			<h5 class="title">Research Topic</h5>
+				Debug<br>
+				Software Maintenance<br>
+		</div>
+
+</body>
+</html>
+
+
